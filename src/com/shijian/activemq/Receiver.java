@@ -13,6 +13,9 @@ public class Receiver {
         // ConnectionFactory ：连接工厂，JMS 用它创建连接
         ConnectionFactory connectionFactory;
         // Connection ：JMS 客户端到JMS Provider 的连接
+        
+        
+        
         Connection connection = null;
         // Session： 一个发送或接收消息的线程
         Session session;
